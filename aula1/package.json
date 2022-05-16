@@ -1,0 +1,12 @@
+{
+  "name": "aula1",
+  "version": "1.0.0",
+  "description": "Aula 1 tecnincas de programação",
+  "main": "aula1.js",
+  "scripts": {
+    "start": "node aula1.js"
+  },
+  "author": "Murillo de Alencar",
+  "license": "ISC",
+  "keywords": []
+}
