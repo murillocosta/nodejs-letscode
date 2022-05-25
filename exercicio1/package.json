@@ -1,0 +1,13 @@
+{
+  "name": "exercicio1",
+  "version": "1.0.0",
+  "description": "resolucao primeira questao lista de exercicios NODE.JS",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Murillo AL Costa",
+  "license": "ISC"
+}
