@@ -11,8 +11,8 @@
             // then create class Professor
             // then create class Aluno
             
-import Professor from './usuarios/professores/index.js'
-import Aluno from './usuarios/alunos/index.js'
+import Professor from './professores/index.js'
+import Aluno from './alunos/index.js'
 
 // Instanciando alunos e professores
 const professor1 = new Professor("Esdras", "Aguilar", 23, 3, 1991, "Técnicas de Programação com Node.Js", 15, 8, 2020)
