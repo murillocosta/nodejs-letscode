@@ -1,4 +1,5 @@
-// Escreva um programa capaz de gerenciar alunos e professores de uma escola.Faça a modelagem das entidades e da estrutura de pastas do projeto, crie as classes e separe em módulos.
+// Escreva um programa capaz de gerenciar alunos e professores de uma escola. Faça a modelagem das entidades e da estrutura de pastas do projeto, crie as classes e separe em módulos.
+    
     // breaking up the problem:
         // create two different classes in JS ()
         // classes will have attbts in commom (DRY principle) (add one general class Usuario)
@@ -9,8 +10,9 @@
         // how to extends classes in Js?
             // then create class Professor
             // then create class Aluno
-import Professor from './Usuarios/Professores/index.js'
-import Aluno from './Usuarios/Alunos/index.js'
+            
+import Professor from './usuarios/professores/index.js'
+import Aluno from './usuarios/alunos/index.js'
 
 
 
