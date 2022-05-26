@@ -14,9 +14,12 @@
 import Professor from './usuarios/professores/index.js'
 import Aluno from './usuarios/alunos/index.js'
 
-
-
-const professor1 = new Professor("Esdras", "Aguilar", 23, 3, 1989, "Técnicas de Programação com Node.Js", 15, 8, 2020)
+// Instanciando alunos e professores
+const professor1 = new Professor("Esdras", "Aguilar", 23, 3, 1991, "Técnicas de Programação com Node.Js", 15, 8, 2020)
 const aluno1 = new Aluno("Murillo", "Costa", 26, 10, 1989, 50420, 836)
-console.log(professor1); 
+
+
+console.log(professor1);
 console.log(aluno1); 
+console.table(professor1) 
+console.table(aluno1); 
