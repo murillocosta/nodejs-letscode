@@ -1,4 +1,4 @@
-import Usuario from "../../usuarios/index.js";
+import Usuario from "../usuarios/index.js";
 
 class Professor extends Usuario {
     constructor(nome, sobrenome, diaNasc, mesNasc, anoNasc, departamento, diaAdmissao, mesAdmissao, anoAdmissao) {

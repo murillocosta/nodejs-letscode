@@ -1,4 +1,4 @@
-import Usuario from "../../usuarios/index.js";
+import Usuario from "../../models/usuarios/index.js";
 
 class Aluno extends Usuario {
     constructor(nome, sobrenome, diaNasc, mesNasc, anoNasc, numeroMatricula, turma) {
@@ -9,9 +9,14 @@ class Aluno extends Usuario {
         this.nota2;
         this.aprovado;
     }
-    mediaNotas = () => (this.nota1 + this.nota2) / 2
+    mediaNotas() {
+        return (this.nota1 + this.nota2) / 2
+    }
+    // TODO tirar arrow functions
     situacao = () => this.mediaNotas() >= 7 ? this.aprovado = true : this.aprovado = false;
-    mensagemAprovacao = () =>`${this.nome} obteve média ${this.mediaNotas()} e está ${this.aprovado ? 'aprovado' : 'reprovado'}.`
+    mensagemAprovacao() {
+        return `${this.nome} obteve média ${this.mediaNotas()} e está ${this.aprovado ? 'aprovado' : 'reprovado'}.`
+    }
 }
 
 export default Aluno
