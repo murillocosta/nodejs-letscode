@@ -8,7 +8,9 @@ class Professor extends Usuario {
         this.mesAdmissao = mesAdmissao;
         this.anoAdmissao = anoAdmissao;
     }
-    dataAdmissao = () => `${this.diaAdmissao}/${this.mesAdmissao}/${this.anoAdmissao}`
+    dataAdmissao() {
+        return `${this.diaAdmissao}/${this.mesAdmissao}/${this.anoAdmissao}`
+    }
 }
 
 export default Professor

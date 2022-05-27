@@ -12,8 +12,10 @@ class Aluno extends Usuario {
     mediaNotas() {
         return (this.nota1 + this.nota2) / 2
     }
-    // TODO tirar arrow functions
-    situacao = () => this.mediaNotas() >= 7 ? this.aprovado = true : this.aprovado = false;
+    
+    situacao() {
+        return this.mediaNotas() >= 7 ? this.aprovado = true : this.aprovado = false;
+    }
     mensagemAprovacao() {
         return `${this.nome} obteve média ${this.mediaNotas()} e está ${this.aprovado ? 'aprovado' : 'reprovado'}.`
     }

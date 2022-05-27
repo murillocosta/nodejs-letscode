@@ -6,8 +6,12 @@ class Usuario {
         this.mesNasc = mesNasc;
         this.anoNasc = anoNasc
     }
-    nomeCompleto = () => `${this.nome} ${this.sobrenome}`
-    dataNasc = () => `${this.diaNasc}/${this.mesNasc}/${this.anoNasc}`
+    nomeCompleto() {
+        return `${this.nome} ${this.sobrenome}`
+    }
+    dataNasc() {
+        return `${this.diaNasc}/${this.mesNasc}/${this.anoNasc}`
+    }
 }
 
 export default Usuario
