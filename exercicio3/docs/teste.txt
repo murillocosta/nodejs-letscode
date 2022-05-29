@@ -1,0 +1,1 @@
+Lendo arquivo e escrevendo conteudo a partir de uma requisicao http
