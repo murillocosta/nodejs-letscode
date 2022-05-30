@@ -1,5 +1,5 @@
 const http = require('http')
-const pcInfo = require('./os/os')
+const pcInfo = require('./controllers/os')
 const server = http.createServer((request, response) => {
     const {
         url,
